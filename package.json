@@ -4,8 +4,6 @@
 	"version": "0.0.1",
 	"homepage": "http://i-3global.com",
 	"main": "./dist/js/i3g-responsive.js",
-	"style": "./dist/scss/i3g-responsive.scss",
-	"sass": "./dist/scss/i3g-responsive.scss",
 	"author": {
 		"name": "i3Global",
 		"url": "http://i-3global.com/"
