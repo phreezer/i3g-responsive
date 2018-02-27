@@ -1,5 +1,5 @@
 /*!
-* i3g-responsive - v0.0.2
+* i3g-responsive - v0.0.3
 * Homepage: http://i-3global.com
 * Author: i3Global
 * Author URL: http://i-3global.com/

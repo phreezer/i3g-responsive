@@ -1,7 +1,7 @@
 {
 	"name": "i3g-responsive",
 	"description": "Device testing",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"homepage": "http://i-3global.com",
 	"main": "./dist/js/i3g-responsive.js",
 	"author": {
