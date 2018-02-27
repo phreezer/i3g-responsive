@@ -1,5 +1,5 @@
 /*!
-* i3g-responsive - v0.0.1
+* i3g-responsive - v0.0.2
 * Homepage: http://i-3global.com
 * Author: i3Global
 * Author URL: http://i-3global.com/
@@ -7,6 +7,7 @@
 (function ($) {
 	'use strict';
 	/*jshint indent:4 */
+
 
 	$.serviceResponsive = function() {
 		var $window = window;
@@ -79,7 +80,6 @@
 
 			if(prev !== latest) {
 				$(window).trigger('app.screen.size.updated', latest);
-				console.log(latest);
 			}
 		}
 
@@ -266,7 +266,6 @@
 				mhz = parseInt((65/average)*offset);
 				d.cookie = 'CpuSpeed=' + mhz + ';';
 			}
-			console.log('mhz', mhz);
 			return mhz;
 		}
 
