@@ -1,0 +1,44 @@
+{
+	"name": "i3g-responsive",
+	"version": "0.0.1",
+	"description": "",
+	"authors": [
+		{
+			"name": "i3Global",
+			"email": "media@i-3global.com",
+			"homepage": "http://i-3global.com"
+	},
+		{
+			"name": "Marcus Heath Showalter",
+			"email": "heath.showalter@i-3global.com",
+			"homepage": "http://heathshowalter.com"
+	}
+  ],
+	"keywords": [
+	"i3g"
+  ],
+	"main": [
+		"dist/css/i3g-responsive.min.css",
+		"dist/js/i3g-responsive.js"
+  ],
+	"ignore": [
+	"docs",
+	"examples",
+	"libs",
+	".gitignore",
+	"bower.json",
+	"Gruntfile.js",
+	"package.json",
+	"README.md"
+  ],
+	"private": true,
+	"license": "UNLICENSED",
+	"dependencies": {
+		"jquery": "~1.11.0",
+		"json3": "~3.3.1",
+		"es5-shim": "~3.1.0",
+		"bootstrap-sass-official": "~3.3.6",
+		"q": "~1.0.1",
+		"html5shiv": "~3.7.3"
+	}
+}
