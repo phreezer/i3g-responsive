@@ -193,7 +193,10 @@ module.exports = function (grunt) {
 		gitcommit: {
 			local: {
 				options: {
-					message: '<%= config.gitMessage %>'
+					message: '<%= config.gitMessage %>',
+					allowEmpty: true,
+					noVerify: true
+
 				}
 			}
 		},
@@ -201,7 +204,8 @@ module.exports = function (grunt) {
 			prod: {
 				options: {
 					tag: '<%= pkg.version %>',
-					message: '<%= config.gitMessage %>'
+					message: '<%= config.gitMessage %>',
+					force: true
 				}
 			}
 		},

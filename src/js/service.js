@@ -2,6 +2,7 @@
 	'use strict';
 	/*jshint indent:4 */
 
+
 	$.serviceResponsive = function() {
 		var $window = window;
 		var gl;
@@ -73,7 +74,6 @@
 
 			if(prev !== latest) {
 				$(window).trigger('app.screen.size.updated', latest);
-				console.log(latest);
 			}
 		}
 
@@ -260,7 +260,6 @@
 				mhz = parseInt((65/average)*offset);
 				d.cookie = 'CpuSpeed=' + mhz + ';';
 			}
-			console.log('mhz', mhz);
 			return mhz;
 		}
 
